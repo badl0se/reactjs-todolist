@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Todocard() {
   return (
-    <div>Todocard</div>
+    <li className='todoItem' >
+        <div className='actionsContainer'>
+
+            <i className="fa-solid fa-pen-nib"></i>
+            <i className="fa-solid fa-explosion"></i>
+        </div>
+    </li>
   )
 }
